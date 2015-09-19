@@ -21,5 +21,7 @@ For opencv :
 Needed to install the make, gcc and gcc-c++ packages that come with setup.exe from cygwin.
 
 >mkdir build-release && cd build-release
+
 >cmake -DCMAKE_BUILD_TYPE=RELEASE -DWITH_SSE3=ON -DWITH_SSSE3=ON -DWITH_TBB=ON ../
+
 >make install
